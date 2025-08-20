@@ -19,6 +19,8 @@ To adapt to the resource limitations in rural areas and enable the use of face r
 ## Face Detection:
 We used the MTCNN from the facenet_pytorch package for face detection, which returns an array of boxes containing face bounding box coordinates.
 
+<img width="442" height="501" alt="image" src="https://github.com/user-attachments/assets/ed71c7fd-c1e8-4b29-9d7e-92983c2877e5" />
+
 ## Feature Extraction:
 The image is first converted to RGB format using OpenCV (an open-source computer vision and image processing library). Then, torchvision.transforms is used to preprocess the face image (resizing, normalization). Finally, the MobileFaceNet model is employed for feature extraction, returning a face feature vector.
 
@@ -28,5 +30,6 @@ Cosine similarity is calculated between face feature vectors using cosine_simila
 ## Model:
 We tried multiple models and eventually selected MobileFaceNet as the face recognition model due to its lightweight nature, making it suitable for embedded systems and mobile devices. It can operate effectively even in resource-limited environments. The model performs well on standard benchmarks like LFW and MegaFace, achieving recognition accuracy close to that of larger models. Furthermore, it utilizes the Linear Bottleneck and Residual Block from the MobileNetV2 architecture, ensuring reasonable performance with reduced computational complexity, faster inference speed, and better real-time face recognition capabilities.
 
+<img width="789" height="383" alt="image" src="https://github.com/user-attachments/assets/9d99ab27-40cb-4bbe-a42d-53709ca6dc5d" />
 
 [Chinese Report](https://github.com/user-attachments/files/21879617/Blue.and.White.Geometric.Company.Profile.Presentation.pdf)
