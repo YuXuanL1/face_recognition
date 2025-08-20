@@ -1,4 +1,4 @@
-[Blue and White Geometric Company Profile Presentation.pdf](https://github.com/user-attachments/files/21879614/Blue.and.White.Geometric.Company.Profile.Presentation.pdf)# face_recognition
+# face_recognition
 To adapt to the resource limitations in rural areas and enable the use of face recognition technology for fast and accurate customer identification under insufficient computing resources, we have successfully integrated this technology with lightweight hardware devices like Raspberry Pi, leveraging Edge AI and edge computing to achieve efficient and effective operation. This approach ensures real-time processing and enhanced performance even in resource-constrained environments.
 
 ## Face Detection:
